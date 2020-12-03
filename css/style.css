@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:Verdana;
+	font-size:12px;
+}
+body #container{
+	width:1050px;
+	margin:0 auto;
+	background-color:#EBEBEBs;
+}
+#header{
+	background-image:url(../images/header.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-color:#FFFF9E;
+	width:1000px;
+	height:160px;
+}
+
+
+/*-------content-----------*/
+
+#content{
+	background-color:#45DBFF;
+	width:675px;
+	height:900px;
+	overflow:scroll;
+	float:left;
+	padding:15px 10px 15px 15px;
+	letter-spacing:1px;
+	word-spacing:10px;
+	text-align:justify;
+}
+h1 {
+	text-decoration:underline;
+	text-transform:uppercase;
+	font-family:Arial;
+	font-size:30px;
+	padding-bottom:20px;
+	text-shadow: 5px 5px 10px green;
+}
+
+
+blockquote{
+	font-style:italic;
+	font-weight:bold;
+	width:600px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:5px;
+	border-color:#999999;
+	border-style:ridge;
+	border-width:1px;
+	background-color:#CCCCCC;
+
+}
+.categories{
+	background-color: skyblue;
+	width: auto;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.skyblue{
+	background-color: skyblue;
+	padding: 10px;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 17px;
+}		
+/*-------content-----------*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; background: url(images/bg1.png); }
+#page-wrap { width: 700px; margin: 50px auto; }
+a { text-decoration: none; }
+h3 { margin: 0 0 10px 0; }
+
+.tabs { list-style: none; overflow: hidden; padding-left: 1px; }
+.tabs li { display: inline; }
+.tabs li a { display: block; float: left; padding: 4px 8px; color: black; border: 1px solid #ccc; background: #eee; margin: 0 0 0 -1px; }
+.tabs li a.current { background: white; border-bottom: 0; position: relative; top: 2px; z-index: 2; }
+
+.box-wrapper { -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; padding: 20px; background: white; border: 1px solid #ccc; margin: -1px 0 0 0; height: 210px; position: relative; }
+.content-box { overflow: hidden; position: absolute; top: 20px; left: 20px; width: 658px; height: 230px; }
+
+.current { z-index: 100; }
+
+.col-one, .col-two, .col-three { width: 30%; float: left; position: relative; top: 350px; }
+.col-one, .col-two { margin-right: 3%; }
